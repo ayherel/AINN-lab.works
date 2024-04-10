@@ -16,7 +16,7 @@ x_test = x_test / 255.0
 Image = 2
 
 # Создание функции отображения изображения в отдельном окне
-plt.figure(figsize=(6, 6))
+plt.figure(figsize=(1, 1))
 plt.imshow(x_test[Image].reshape([28, 28]), cmap='gray')
 
 # Создание нейросети
